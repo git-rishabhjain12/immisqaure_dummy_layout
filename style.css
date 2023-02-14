@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-image: url(images/background_image.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+
+#navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+/* LOGO */
+
+nav #navigation a img {
+    padding: 10px;
+}
+
+/* Hamburger */
+
+#right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    background-color: black;
+    position: fixed;
+    right: 1.3rem;
+    padding: 10px;
+}
+
+#right span {
+    color: rgb(75, 218, 189);
+    padding: 0 5px;
+    font-size: 1.2rem;
+}
+
+#right:hover span {
+    color: #fff;
+    transition: .5s;
+}
+
+#hamburger span {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    background-color: #fff;
+}
+
+/* Content */
+
+#details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+#content {
+    color: #fff;
+    width: 70%;
+    line-height: 5rem;
+    padding: 4rem 4rem;
+}
+
+#content h5 {
+    font-size: 1.5rem;
+    color: grey;
+}
+
+#content p {
+    font-size: 4.5rem;
+}
+
+/* Social Links */
+
+#socialprofile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 1.5rem;
+}
+
+.links{
+    margin: 1rem 0;
+}
+
+.links:hover{
+    scale: 1.4;
+    transition: .5s;
+}
+
+.links a {
+    font-size: 1rem;
+    padding: 10px 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 5px 0;
+}
+
+.links a i {
+    color: #fff;
+}
+
+
+.links span{
+    display: none;
+    color: blueviolet;
+}
+
+.links .links:hover span{
+    display: block;
+}
