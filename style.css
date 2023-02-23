@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: cursive;
 }
 
 header {
@@ -121,6 +121,7 @@ nav #navigation a img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-right: 1rem;
 }
 
 .links {
@@ -153,3 +154,62 @@ nav #navigation a img {
 .links .links:hover span {
     display: block;
 }
+
+/* ************************************************************************* */
+/* SECTION */
+
+section {
+    padding: 2rem 5rem;
+}
+
+section h4 {
+    text-align: center;
+    font-size: 1.4rem;
+    color: blue;
+}
+
+section #section-title {
+    text-align: center;
+    font-size: 5rem;
+    padding: 10px 0;
+}
+
+section p.content {
+    text-align: center;
+    padding: 1rem 0;
+    margin: 0 10rem;
+    width: auto;
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+
+section #bottom-part {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+section #bottom-part #project-completed,
+section #bottom-part #happy-clinets {
+    font-size: 2rem;
+}
+
+section #bottom-part #project-completed h1,
+section #bottom-part #happy-clinets h1 {
+    text-align: center;
+}
+
+
+section #bottom-part #project-completed p,
+section #bottom-part #happy-clinets p {
+    font-size: 1.4 rem;
+}
+
+/* *************************************************************** */
+/* SECTION (migration-countries) */
+
+section #migration-countries {
+    background: linear-gradient(to right bottom, #f1f1f1 0, #fff 50%, #e6e6e6 50%)
+}
+
