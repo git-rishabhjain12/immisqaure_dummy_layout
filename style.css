@@ -33,7 +33,7 @@ nav #navigation a img {
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
-    background-color: black;
+    /* background-color: black; */
     position: fixed;
     right: 1.3rem;
     padding: 10px;
@@ -82,6 +82,37 @@ nav #navigation a img {
 
 #content p {
     font-size: 4.5rem;
+    color: blue;
+}
+
+#smallbuttons-images {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+
+#smallbuttons-images a.smallbuttons {
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 15px;
+    margin: 0 5px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    transition: all 0.5s linear;
+}
+
+#smallbuttons-images a.smallbuttons:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+#smallbuttons-images .small-images {
+    border: 2px solid #fff;
+    padding: 5px 10px;
+    margin: 0 5px;
 }
 
 /* Social Links */
@@ -90,14 +121,13 @@ nav #navigation a img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-right: 1.5rem;
 }
 
-.links{
+.links {
     margin: 1rem 0;
 }
 
-.links:hover{
+.links:hover {
     scale: 1.4;
     transition: .5s;
 }
@@ -115,11 +145,11 @@ nav #navigation a img {
 }
 
 
-.links span{
+.links span {
     display: none;
     color: blueviolet;
 }
 
-.links .links:hover span{
+.links .links:hover span {
     display: block;
 }
