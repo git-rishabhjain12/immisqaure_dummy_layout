@@ -209,7 +209,60 @@ section #bottom-part #happy-clinets p {
 /* *************************************************************** */
 /* SECTION (migration-countries) */
 
-section #migration-countries {
-    background: linear-gradient(to right bottom, #f1f1f1 0, #fff 50%, #e6e6e6 50%)
+#migration-countries {
+    background: linear-gradient(to right bottom, #f1f1f1 0, #fff 50%, #e6e6e6 50%);
+    padding: 5rem 0;
 }
 
+#top-content {
+    padding: 4rem;
+}
+
+#top-content h4 {
+    text-align: center;
+    color: skyblue;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+}
+
+#top-content p {
+    text-align: center;
+    color: gray;
+    font-size: 1.3rem;
+    padding: 0.5rem 0;
+}
+
+#top-content h1 {
+    text-align: center;
+    margin: 0 5rem;
+    font-size: 3rem;
+}
+
+#bottom-content {
+    margin: 0 10%;
+}
+
+#countries {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: auto;
+}
+
+.country {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.country img {
+    height: 80px;
+    padding: 0 1rem;
+}
+
+.country a {
+    color: blue;
+    font-size: 1.7rem;
+    font-weight: bolder;
+}
