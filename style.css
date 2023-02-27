@@ -156,13 +156,13 @@ nav #navigation a img {
 }
 
 /* ************************************************************************* */
-/* SECTION */
+/* SECTION about */
 
-section {
+section #about {
     padding: 2rem 5rem;
 }
 
-section h4 {
+#about #top-part #about-heading4 {
     text-align: center;
     font-size: 1.4rem;
     color: blue;
@@ -218,11 +218,11 @@ section #bottom-part #happy-clinets p {
     padding: 4rem;
 }
 
-#top-content h4 {
+#top-content #top-content-heading4 {
     text-align: center;
     color: skyblue;
     text-transform: uppercase;
-    padding-bottom: 0.5rem;
+    letter-spacing: 3px;
 }
 
 #top-content p {
@@ -232,7 +232,7 @@ section #bottom-part #happy-clinets p {
     padding: 0.5rem 0;
 }
 
-#top-content h1 {
+#top-content-heading1 {
     text-align: center;
     margin: 0 5rem;
     font-size: 3rem;
@@ -265,4 +265,116 @@ section #bottom-part #happy-clinets p {
     color: blue;
     font-size: 1.7rem;
     font-weight: bolder;
+    cursor: pointer;
+}
+
+/* *********************************************************** */
+
+/* MIGRATION PLANNING */
+
+#migration-planning {
+    height: 30rem;
+    background-color: #000;
+}
+
+#migration-planning #migration-planning-div {
+    padding-bottom: 3rem;
+}
+
+#planning-heading4 {
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+    font-size: 1.14rem;
+    color: blue;
+    letter-spacing: 3px;
+}
+
+#planning-heading1 {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 0 20rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+#thin-line {
+    border: 1px solid grey;
+    opacity: 0.3;
+    margin: 2rem 30rem;
+}
+
+/* IMAGES */
+
+#images {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+}
+
+#assessment-image {
+    display: flex;
+    justify-content: center;
+    width: 48%;
+    height: 425px;
+    padding: 0 0.5rem;
+    overflow: hidden;
+}
+
+#assessment-image:hover #content-on-image a i{
+    overflow: auto;
+}
+
+
+#assessment-image img {
+    width: 100%;
+    transition: all .5s ease-in-out;
+}
+
+#assessment-image:hover img {
+    transform: scale(1.1, 1.1);
+}
+
+
+#assessment-image #content-on-image a i {
+    position: relative;
+    /* overflow: hidden; */
+    width: -27rem;
+    left: 2rem;
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 1rem;
+    color: #fff;
+}
+
+#assessment-image #content-on-image p {
+    position: relative;
+    top: -6rem;
+    left: -1rem;
+    font-size: 2rem;
+    width: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: ui-monospace;
+}
+
+#content-on-image {
+    display: none;
+}
+
+#assessment-image:hover #content-on-image {
+    display: block;
+}
+
+#consultation {
+    width: 48%;
+    padding: 0 0.5rem;
+}
+
+#consultation img {
+    width: 100%;
 }
